@@ -60,6 +60,7 @@
             button {
                 padding: 16px 32px;
                 border: none;
+                cursor: pointer;
             }
 
             .btn1 {
@@ -72,6 +73,10 @@
                 font-weight: 700;
                 line-height: 28px;
                 letter-spacing: 0.1px;
+                &:hover{
+                    background: var(--Light-text, #FFF);
+                    color:var(--Primary, #2091F9);
+                }
             }
 
             .btn2 {
@@ -85,6 +90,10 @@
                 line-height: 28px;
                 letter-spacing: 0.1px;
                 margin-left: 40px;
+                &:hover{
+                    background:var(--Primary, #2091F9);
+                    color: var(--Dark-background, #252B42);
+                }
             }
         }
     }

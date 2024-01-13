@@ -27,10 +27,10 @@ const VideoSlider = () => {
         grabCursor={true}
         centeredSlides={true}
         loop={true}
-        // autoplay={{
-        //     delay: 5500,
-        //     disableOnInteraction: false,
-        //   }}
+        autoplay={{
+            delay: 5500,
+            disableOnInteraction: false,
+          }}
         slidesPerView={"auto"}
         coverflowEffect={{
           rotate: 50,
