@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/crypto/static/css/main.110b43a5.css",
+    "main.js": "/crypto/static/js/main.7879763e.js",
+    "static/js/787.df7b7e15.chunk.js": "/crypto/static/js/787.df7b7e15.chunk.js",
+    "static/media/photo2.png": "/crypto/static/media/photo2.5fbf5d7f4620f72fbc06.png",
+    "static/media/photo7.jpg": "/crypto/static/media/photo7.8ddfa17318c1d017b8f9.jpg",
+    "static/media/photo3.png": "/crypto/static/media/photo3.42d248a87e2b34dfdd4a.png",
+    "static/media/cryptoBackFon.png": "/crypto/static/media/cryptoBackFon.fa48b9f6a01f87fa53fc.png",
+    "static/media/photo1.png": "/crypto/static/media/photo1.fbc35ad462a3f61634e0.png",
+    "static/media/girle1.png": "/crypto/static/media/girle1.f938e456bc3463f79279.png",
+    "static/media/Mockup.png": "/crypto/static/media/Mockup.c048bfeb86e0c88dd3a2.png",
+    "static/media/girle2.png": "/crypto/static/media/girle2.281897607f4fb8fbf1f5.png",
+    "static/media/photo8.webp": "/crypto/static/media/photo8.d00b2edff5d08576ec89.webp",
+    "static/media/photo4.avif": "/crypto/static/media/photo4.9feabb2da57b4cffb76b.avif",
+    "static/media/photo6.avif": "/crypto/static/media/photo6.30de4af666602fff0fb7.avif",
+    "static/media/photo9.webp": "/crypto/static/media/photo9.d2423fdb76bbf8d3d83d.webp",
+    "static/media/showing.png": "/crypto/static/media/showing.52f7f9bd8db7d1c9e19b.png",
+    "static/media/photo5.avif": "/crypto/static/media/photo5.173114f6e7f8068e9d3b.avif",
+    "static/media/pngwing2.png": "/crypto/static/media/pngwing2.88f3f017c5d10f5bcbbe.png",
+    "static/media/pngwing1.png": "/crypto/static/media/pngwing1.ed492ef67e8b11be9c83.png",
+    "static/media/pngwing3.png": "/crypto/static/media/pngwing3.49ecc4376ff41e70e30a.png",
+    "static/media/slick.svg": "/crypto/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/crypto/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/crypto/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/crypto/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/crypto/index.html",
+    "main.110b43a5.css.map": "/crypto/static/css/main.110b43a5.css.map",
+    "main.7879763e.js.map": "/crypto/static/js/main.7879763e.js.map",
+    "787.df7b7e15.chunk.js.map": "/crypto/static/js/787.df7b7e15.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.110b43a5.css",
+    "static/js/main.7879763e.js"
+  ]
+}
