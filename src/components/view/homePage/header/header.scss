@@ -1,0 +1,65 @@
+.headerWrapper{
+    width: 90%;
+    margin: 0 auto;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    .headerLogo{
+        width: 20%;
+        background-image: url('../../../../images/investLogo.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+    .menu-list{
+        width: 65%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        ul{
+            display: flex;
+            list-style: none;
+            color: white;
+            li{
+                margin-right: 40px;
+                font-family: Open Sans;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 40px;
+            }
+        }
+    }
+    .headerIcons{
+        width: 25%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        ul{
+            display: flex;
+            list-style: none;
+            color: white;
+            li{
+                font-size: 30px;
+                margin-right: 10px;
+            }
+        }
+    }
+    .IconBtn{
+        width: 25%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+       
+        button{
+            border: none;
+            font-size: 30px;
+            color: white;
+            font-size: 30px;
+            background: none;
+            height: 30px;
+            cursor: pointer;
+            
+        }
+    
+    }
+}

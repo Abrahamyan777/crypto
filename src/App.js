@@ -1,23 +1,39 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
+import HomePage from './components/view/homePage/homePage';
+import ModalMenu from './components/view/homePage/modalMenu/modalMenu';
+import InfoPage from './components/view/infoPage/infoPage';
+import Footer from './components/view/footer/footer';
+import SlikComp from './components/view/curuselContainer/curuselContainer';
+import VideoSlider from './components/view/videoSlider/videoSlider';
+import Security from './components/view/security/security';
+import Learn from './components/view/learn/learn';
+import Platforms from './components/view/platforms/platforms';
+import Reviews from './components/view/reviews/reviews';
+
 
 function App() {
+
+  const [modalActive, setModalActiv] = useState(false);
+
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ModalMenu active={modalActive} setActive={setModalActiv} />
+      <HomePage active={modalActive} setActive={setModalActiv} />
+      <InfoPage />
+      <VideoSlider />
+      <Security />
+      <Learn />
+      <Platforms />
+      <Reviews />
+
+      {/* <SlikComp /> */}
+
+
+      <Footer />
+    
     </div>
   );
 }
