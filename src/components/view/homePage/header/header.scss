@@ -4,28 +4,31 @@
     height: 10vh;
     display: flex;
     justify-content: space-between;
+
     .headerLogo{
         width: 20%;
         background-image: url('../../../../images/investLogo.png');
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;
+        order: 1;
     }
     .menu-list{
-        width: 65%;
+        width: 45%;
         display: flex;
         align-items: center;
         justify-content: center;
+        order: 2;
         ul{
             display: flex;
             list-style: none;
             color: white;
             li{
-                margin-right: 40px;
+                margin-right: 20px;
                 font-family: Open Sans;
-                font-size: 20px;
+                font-size: 17px;
                 font-weight: 400;
-                line-height: 40px;
+                line-height: 35px;
                 cursor: pointer;
                 &:hover{
                     text-decoration: underline;
@@ -34,17 +37,18 @@
         }
     }
     .headerIcons{
-        width: 25%;
+        width: 20%;
         display: flex;
         align-items: center;
         justify-content: center;
+        order: 2;
         ul{
             display: flex;
             list-style: none;
             color: white;
             li{
                 font-size: 30px;
-                margin-right: 10px;
+                margin-right: 5px;
                 cursor: pointer;
                 &:hover{
                     color: blueviolet;
@@ -53,11 +57,11 @@
         }
     }
     .IconBtn{
-        width: 25%;
         display: flex;
         justify-content: flex-end;
         align-items: center;
         cursor: pointer;
+        order: 4;
        
         button{
             border: none;
@@ -71,4 +75,44 @@
         }
     
     }
+    .languges-wrapper{
+        width: 15%;
+        height: 100%;
+        order: 3;
+     
+        .languges-container{
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+            select{
+                background: none;
+                color: white;
+                width: 60px;
+                height: 30px;
+                font-size: 16px;
+                font-weight: bold;
+                border: 1px solid white;
+                border-radius: 6px;
+              
+                option{
+                    color: black;
+                    background: none;
+                }
+            }
+            
+        }
+        
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .headerWrapper{
+        .headerLogo{
+            width: 80%;
+            background-position: unset;
+        }
+    }
+    
 }

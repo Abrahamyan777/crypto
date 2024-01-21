@@ -1,0 +1,30 @@
+{
+    "ModalMenu":  {
+        "Menu": "Menu"
+    },
+
+    "homepage": {
+        "header": {
+            "Peculiarities": "Peculiarities",
+            "Reviews": "Reviews",
+            "Investment": "Investment"
+        },
+        "Best project": "Best project",
+        "Crypto": "Crypto",
+        "Investments": "Investments",
+        "text1": "International project for investing in cryptocurrency and",
+        "text2": "Not only. We will make money if you make money!",
+        "Join": "Join",
+        "More details": "More details"
+    },
+    "InfoPage": {
+        "Coin": "How does “Invest Coin” work?",
+        "CoinText": "Invest Coin is a team of experienced investors,  analysts and programmers. We work on cryptocurrency platforms (and not only) for more than 4 years and have a competitive portfolio. All meetings, communications and agreements with our partners (clients) are carried out in a transparent manner.",
+        "Reliability": "Reliability",
+        "h3text": "   Slate helps you see how  many more days you need  to work to reach your financial goal.",
+        "Experience": "Experience",
+        "h3text2": "Slate helps you see how   many more days you need to work to reach your  financial goal.",
+        "Transparency": "Transparency",
+        "TransparencyText": "Slate helps you see how   many more days you need to work to reach your  financial goal."
+    }
+}
