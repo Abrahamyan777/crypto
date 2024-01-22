@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { Suspense, useState } from 'react';
 import './App.css';
 import HomePage from './components/view/homePage/homePage';
 import ModalMenu from './components/view/homePage/modalMenu/modalMenu';
@@ -17,24 +17,23 @@ function App() {
   const [modalActive, setModalActiv] = useState(false);
 
 
-
   return (
-    <div className="App">
-      <ModalMenu active={modalActive} setActive={setModalActiv} />
-      <HomePage active={modalActive} setActive={setModalActiv} />
-      <InfoPage />
-      <VideoSlider />
-      <Security />
-      <Learn />
-      <Platforms />
-      <Reviews />
+    <Suspense fallback="Loading...">
+      <div className="App">
+        <ModalMenu active={modalActive} setActive={setModalActiv} />
+        <HomePage active={modalActive} setActive={setModalActiv} />
+        <InfoPage />
+        <VideoSlider />
+        <Security />
+        <Learn />
+        <Platforms />
+        <Reviews />
 
-      {/* <SlikComp /> */}
+        {/* <SlikComp /> */}
+        <Footer />
+      </div>
+    </Suspense>
 
-
-      <Footer />
-    
-    </div>
   );
 }
 
