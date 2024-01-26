@@ -8,15 +8,19 @@ import 'swiper/css/pagination';
 
 // import required modules
 import { Pagination } from 'swiper/modules';
+import { useTranslation } from 'react-i18next';
 
 const Inems = () => {
+
+    const {t} = useTranslation()
+
     return (
         <div className='inner_slider'>
             <div className='info'>
                 <div className="imgaes"></div>
                 <div className="name">
-                    <h4>Али</h4>
-                    <p>Узбекистан</p>
+                    <h4>{t("Reviews.Items.Ali")}</h4>
+                    <p>{t("Reviews.Items.Uzbekistan")}</p>
 
                 </div>
                 <div className="score">
@@ -29,21 +33,22 @@ const Inems = () => {
                     </ul>
                 </div>
             </div>
-            <h4 className='title'>It was a very good experience</h4>
-            <p className='text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id
-                augue sit cursus pellentesque enim arcu.</p>
+            <h4 className='title'>{t("Reviews.Items.It was a very good experience")}</h4>
+            <p className='text'>{t("Reviews.Items.text")}</p>
         </div>
     )
 }
 
 
 const Reviews = () => {
+
+    const {t} = useTranslation()
+
     return (
         <section className='reviews-wrapper'>
             <div className="top_block">
-                <h3>Отзывы наших партнеров</h3>
-                <p>Каждый отзыв по-особенному  ценный для нас. Ведь для этого было проделано большой совместный путь.
-                    Успех состоит из доверие, готовности к развитию и перемен.</p>
+                <h3>{t("Reviews.Reviews.Reviews from our partners")}</h3>
+                <p>{t("Reviews.Reviews.text")}</p>
             </div>
             <div className="bottom_block">
                 <Swiper
@@ -52,17 +57,6 @@ const Reviews = () => {
                     pagination={{
                         clickable: true,
                     }}
-                    // breakpoints={{
-                    //     1024: {
-                    //       slidesPerView: 2,
-                    //     },
-                    //     768: {
-                    //       slidesPerView: 2,
-                    //     },
-                    //     640: {
-                    //       slidesPerView: 1,
-                    //     },
-                    //   }}
                     modules={[Pagination]}
                     className="mySwiper"
                 >

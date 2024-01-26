@@ -26,5 +26,41 @@
         "h3text2": "Slate helps you see how   many more days you need to work to reach your  financial goal.",
         "Transparency": "Transparency",
         "TransparencyText": "Slate helps you see how   many more days you need to work to reach your  financial goal."
+    },
+    "security": {
+        "Invest Coin is about security!": "Invest Coin is about security!",
+        "textInvest": "And how is security expressed? The less you invest in an investment, the greater the risk of failure. The more investments, the less risk  Investment security means that your investment ($10 or $100) is not invested separately. Our experienced investors place bets from a general account, where the balance is always more than $100,000. Click on the button below and find out everything personally from our managers",
+        "Find out more": "Find out more"
+    },
+    "learn": {
+        "Education?":  "Education?",
+        "Certainly":  "Certainly! Individual lessons for those who want to learn how to invest.",
+        "Watch the video for more details?":  "Watch the video for more details",
+        "Or write to the manager":  "Or write to the manager",
+        "Write":  "Write"
+    }, 
+    "Platforms": {
+        "Our platforms": "Our platforms",
+        "text3": "Our project works only with verified investment sites to minimize risks."
+    },
+    "Reviews": {
+        "Items": {
+            "Ali": "Ali",
+            "Uzbekistan": "Uzbekistan",
+            "It was a very good experience": "It was a very good experience",
+            "text": "It was a very good experience, it was necessary to go through it. I felt supported by so many people. I became completely close to my parents. I felt weak, and this is sometimes very useful in order to become stronger. And I'm very glad that I experienced it."
+        },
+        "Reviews": {
+            "Reviews from our partners": "Reviews from our partners",
+            "text": "Every review is especially valuable to us. After all, a lot of work has been done together to achieve this. Success consists of trust, willingness to develop and change."
+        }
+    }, 
+    "footer": {
+        "About": "About",
+        "Growers": "Growers",
+        "Merchants": "Merchants",
+        "Partners": "Partners",
+        "Contact": "Contact",
+        "2022": "© 2022 Invest Coin. All rights reserved."
     }
 }

@@ -5,14 +5,19 @@ import bitcoin3 from '../../../images/bitcoin3.png'
 import bitcoin4 from '../../../images/bitcoin4.png'
 import bitcoin5 from '../../../images/bitcoin5.png'
 import bitcoin6 from '../../../images/bitcoin6.png'
+import { useTranslation } from 'react-i18next';
 
 
 
 const Platforms = () => {
+
+    const {t} = useTranslation();
+
+
     return (
         <section className='platforms-wrapper'>
-            <h2>Наши площадки</h2>
-            <p>Наш проект работает только с проверенными площадками для инвестиций, чтобы максимально снизить риски.</p>
+            <h2>{t("Platforms.Our platforms")}</h2>
+            <p>{t("Platforms.text3")}</p>
 
             <div className='platforms-items'>
                 <ul>
@@ -37,7 +42,6 @@ const Platforms = () => {
                 </ul>
             </div>
             <div className='line'></div>
-
         </section>
     )
 }

@@ -1,28 +1,31 @@
 import "./footer.scss"
 import img from '../../../images/monochrome-white 1.png'
+import { useTranslation } from "react-i18next"
 
 
 const Footer = () => {
+
+    const {t} = useTranslation()
+
+
     return (
         <footer className="footer-container">
             <div className="footer-inner">
                 <div className="left-block">
                     <img src={img} alt="monochrome" />
-
                 </div>
                 <div className="center-block1">
                     <h5 className="text">123 Market St. #22B
                         Charlottesville, California 44635</h5>
                     <span className="info1">contact@exmpl.page</span>
-
                 </div>
                 <div className="center-block2">
                     <ul>
-                        <li>About</li>
-                        <li> Growers</li>
-                        <li> Merchants</li>
-                        <li> Partners</li>
-                        <li>Contact</li>
+                        <li>{t("footer.About")}</li>
+                        <li> {t("footer.Growers")}</li>
+                        <li> {t("footer.Merchants")}</li>
+                        <li> {t("footer.Partners")}</li>
+                        <li>{t("footer.Contact")}</li>
                     </ul>
 
                 </div>
@@ -36,7 +39,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="invest">
-                <span >© 2022 Invest Coin. All rights reserved.</span>
+                <span >{t("footer.2022")}</span>
             </div>
        
 
