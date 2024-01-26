@@ -1,9 +1,13 @@
 import './learn.scss'
 import girle1 from '../../../images/girle1.png'
 import girle2 from '../../../images/girle2.png'
+import { useTranslation } from 'react-i18next'
 
 
 const Learn = () => {
+
+    const { t } = useTranslation();
+
     return (
         <section className='learn-wrapper'>
             <div className='left-block'>
@@ -16,18 +20,18 @@ const Learn = () => {
                 </div>
             </div>
             <div className='right-block'>
-                <h3>Обучение?</h3>
+                <h3>{t("learn.Education?")}</h3>
                 <p className='text1'>
-                    Конечно! Индивидуальные уроки тем кто хочет научиться инвестировать.
+                    {t("learn.Certainly")}
                 </p>
                 <h3>
-                    Подробнее посмотрите на видео
+                {t("learn.Watch the video for more details?")}
                 </h3>
                 <p>
-                    Или напишите менеджеру
+                {t("learn.Or write to the manager")}
                 </p>
                 <div>
-                    <button>Написать</button>
+                    <button>{t("learn.Write")}</button>
                 </div>
             </div>
         </section>
